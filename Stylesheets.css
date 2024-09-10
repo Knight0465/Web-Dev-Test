@@ -1,5 +1,83 @@
-#header {
-text-align: right;
-background-color: Black;
-font-family: cursive;
+body {
+	margin: 0 0;
+	padding: 0;
 }
+
+footer{
+	background-color: black;
+	color: white;
+	font-family: "Comic Sans MS","Comic Sans";
+	text-align: center;
+	margin: 0 0;
+	padding: 20px 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+header {
+	background-color: Black;
+	padding: 20px 20px;
+	font-family: "Comic Sans MS","Comic Sans";
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+header a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+html {
+overflow-x: hidden;
+
+}
+
+li {
+padding:0;
+list-style:none;
+display:inline-block;
+margin: 0 auto;
+position: relative; top: -25px;
+position: relative; right: 20px;
+}
+
+#middleone {
+position: relative; top: 86px;
+text-align: center;
+font-family: fantasy;
+font-size: 50px;
+}
+
+#middletwo {
+position: relative; top: 86px;
+text-align: center;
+font-family: "Comic Sans MS";
+font-size: 40px;
+
+}
+
+.fun {
+display: block;
+margin-right: auto;
+}
+
