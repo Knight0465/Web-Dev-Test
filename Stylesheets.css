@@ -48,36 +48,38 @@ footer a:hover{
 }
 
 html {
-overflow-x: hidden;
-
+	overflow-x: hidden;
 }
 
 li {
-padding:0;
-list-style:none;
-display:inline-block;
-margin: 0 auto;
-position: relative; top: -25px;
-position: relative; right: 20px;
+	padding:0;
+	list-style:none;
+	display:inline-block;
+	margin: 0 auto;
+	position: relative; top: -25px;
+	position: relative; right: 20px;
 }
 
 #middleone {
-position: relative; top: 86px;
-text-align: center;
-font-family: fantasy;
-font-size: 50px;
+	position: relative; top: 86px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 50px;
 }
 
 #middletwo {
-position: relative; top: 86px;
-text-align: center;
-font-family: "Comic Sans MS";
-font-size: 40px;
-
+	position: relative; top: 86px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 40px;
 }
 
 .fun {
-display: block;
-margin-right: auto;
+	display: block;
+	margin-right: auto;
 }
 
+button {
+	background-color:lightblue ;
+	position:absolute; top: 430px; right: 750px;
+}
