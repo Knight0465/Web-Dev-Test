@@ -83,3 +83,7 @@ button {
 	background-color:lightblue ;
 	position:absolute; top: 430px; right: 750px;
 }
+
+south {
+	align-content: center;
+}
