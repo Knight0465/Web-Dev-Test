@@ -1,6 +1,7 @@
 body {
 	margin: 0 0;
 	padding: 0;
+	background-color: darkturquoise;
 }
 
 footer{
@@ -32,6 +33,7 @@ header a{
 	color: #fff;
 	text-decoration: none;
 }
+
 header a:hover{
 	text-decoration: underline;
 	color: green;
@@ -56,19 +58,37 @@ li {
 	list-style:none;
 	display:inline-block;
 	margin: 0 auto;
-	position: relative; top: -25px;
-	position: relative; right: 20px;
+	position: relative; 
+	top: -25px;
+	position: relative; 
+	right: 20px;
 }
 
 #middleone {
-	position: relative; top: 86px;
+	position: relative; 
+	top: 26px;
 	text-align: center;
 	font-family: fantasy;
 	font-size: 50px;
 }
 
 #middletwo {
-	position: relative; top: 86px;
+	position: relative; 
+	top: 26px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 40px;
+}
+
+#middlethree {
+	position: relative; top: 26px;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 40px;
+}
+
+#middlefour {
+	position: relative; top: 26px;
 	text-align: center;
 	font-family: "Comic Sans MS";
 	font-size: 40px;
@@ -81,9 +101,95 @@ li {
 
 button {
 	background-color:lightblue ;
-	position:absolute; top: 430px; right: 750px;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
 }
 
-south {
-	align-content: center;
+.button-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Comic Sans MS";
+	background-color: green;
+	padding: 10px 20px;
+	border-radius: 50px;
+	text-align: center;
+	border: none;
+	font-size: 17px;
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+}
+
+.button-link:hover {
+	background-color: darkgreen;
+}
+
+.text-input {
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 19%;
+	box-sizing: border-box;
+}
+
+.text-input-two {
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 19%;
+	box-sizing: border-box;
+}
+
+.container {
+	text-align: center;
+}
+
+.kenny {
+	position: fixed;
+	left: 75px;
+	bottom: 275px;
+}
+
+.cartman {
+	position: fixed;
+	left: 375px;
+	bottom: 275px;
+}
+
+.butters {
+	position: fixed;
+	left: 675px;
+	bottom: 275px;
+}
+
+#kennytext {
+	position: relative; 
+	top: 185px;
+	left: 80px;
+	font-family: fantasy;
+	font-size: 20px;
+}
+
+#cartmantext {
+	position: relative; 
+	top: 235px;
+	left: 380px;
+	font-family: fantasy;
+	font-size: 20px;
+}
+
+#butterstext {
+	align-items: center;
+	position: relative; 
+	top: 145px;
+	left: 685px;
+	font-family: fantasy;
+	font-size: 20px;
 }
